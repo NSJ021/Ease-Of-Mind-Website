@@ -1,6 +1,6 @@
 ---
 name: User Story Template
-about: A template for creating user stories
+about: User Story - <title>
 title: "[User Story]"
 labels: Could Have, Must Have, Should Have
 assignees: NSJ021
