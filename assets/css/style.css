@@ -11,6 +11,19 @@
 
 */
 
+/* Colour Variables */
+:root{
+
+    --off-white: #fafafa;
+    --cream: #F5ECD1;
+    --beige: #DAD4B5;
+    --medium-red: #A73121;
+    --rich-red: #8A4133;
+    --Warm-red: #952323;
+
+}
+
+
 
 /* ------------- Global Styles ------------- */
 /* ------------- Overrides ------------- */
@@ -32,29 +45,29 @@ body {
     border: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.25);
-    color: #F5ECD1;
+    color: var(--cream);
 }
 
 .navbar-brand {
     font-weight: bold;
-    color: #fafafa;
+    color: var(--off-white);
     padding-left: 40px;
     padding-right: 25px;
     font-size: 2rem;
 }
 
 .navbar-brand:hover {
-    color: #F5ECD1;
+    color: var(--beige);
 }
 
 .navbar .navbar-nav a {
     font-weight: bold;
-    color: #fafafa;
+    color: var(--off-white);
     padding-left: 20px;
 }
 
 .navbar .navbar-nav a:hover {
-    color: #F5ECD1;
+    color: var(--beige);
 }
 
 .navbar .navbar-toggler {
@@ -100,16 +113,16 @@ body {
 }
 
 .container-beige {
-    background-color: #DAD4B5;
+    background-color: var(--beige);
 }
 
 .container-light-beige {
-    background-color: #F5ECD1;
+    background-color: var(--cream);
 }
 
 .container-wrapper--red {
-    background-color: #8A4133;
-    color: #fafafa;
+    background-color: var(--rich-red);
+    color: var(--off-white);
 }
 
 /* ------------- Jumbotron ------------- */
@@ -119,14 +132,14 @@ body {
 }
 
 .jumbotron-header {
-    color: white;
+    color:var(--off-white);
     font-weight: bold;
     padding-bottom: 30px;
 }
 
 .jumbotron .lead {
     margin: 25px 0;
-    color: white;
+    color: var(--off-white);
 }
 
 /* ------------- Information Section ---------- */
@@ -144,16 +157,16 @@ body {
 }
 
 .btn--red {
-    color: white;
-    background-color: #A73121;
+    color: var(--off-white);
+    background-color: var(--medium-red);
 }
 
 .btn--red:hover,
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
-    background-color: #952323;
-    color: white;
+    background-color: var(--Warm-red);
+    color: var(--off-white);
 }
 
 /* ------------- Activities Section ---------- */
@@ -181,7 +194,7 @@ body {
 }
 
 .card .btn {
-    background-color: #A73121;
+    background-color: var(--medium-red);
     /* border-radius: 15px; */
     min-width: 100px;
     font-weight: bold;
@@ -194,8 +207,8 @@ body {
 .card .btn--red:active,
 .card .btn--red:focus,
 .card .btn--red:active:focus {
-    background-color: #952323;
-    color: #fafafa;
+    background-color: var(--Warm-red);
+    color: var(--off-white);
 }
 
 
@@ -207,18 +220,18 @@ body {
 }
 
 .accordion-item .accordion-button {
-    background-color: #DAD4B5;
+    background-color: var(--beige);
     color: black
 }
 
 .accordion-body {
-    background-color: #F5ECD1;
+    background-color: var(--cream);
 
 }
 
 .accordion-body p a {
     text-decoration: none;
-    color: #952323;
+    color: var(--Warm-red);
 }
 
 
@@ -236,17 +249,18 @@ body {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
-    background-color: #a8594f;
+    color: var(--rich-red);
+    background-color: var(--beige);
     transition: all 0.35s ease-in-out;
 
 }
 
 .social-links li a i:hover {
-    background: #952323;
+    color: var(--off-white);
+    background: var(--medium-red);
 }
 
 #footer-details {
     padding: 20px;
-    background-color: #8A4133;
+    background-color: var(--rich-red);
 }
