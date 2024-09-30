@@ -1,15 +1,17 @@
 # Ease Of Mind
 
+<img src="assets/images/final-product.png" alt="Image of the final webpage">
+
 ## Overview
 
 ### Purpose
 
-### Ease Of Mind ----
+### Ease Of Mind
 Is a Mental Health Awareness and Wellbeing webpage. With a focus on providing clarity, information and suggestions on how to manage and maintain your mental health. This webpage aims to provide useful information, links, resources and potential activities for its users.
 
 ### Target Audience
 
-### Who is it for? ----
+### Who is it for?
 Ease Of Mind is for any individual who feels their mental health is suffering or has concerns about related issues. No particular age group is targeted or demographic as the website is intended for all to benefit from.
 
 ## User Stories
@@ -51,24 +53,16 @@ Ease Of Mind is for any individual who feels their mental health is suffering or
 
 ### Wireframes
 
-<img src="/assets/images/wireframe-design1" alt="Wireframe image of the design of the website">
+<img src="/assets/images/mobile-wireframe.png" alt="Mobile Wireframe image of the design of the website">
+<br>
+<img src="/assets/images/mtablet-wireframe.png" alt="Tablet Wireframe image of the design of the website">
+<br>
+<img src="/assets/images/desktop-wireframe.png" alt="Desktop Wireframe image of the design of the website">
 <br>
 
 ### Accessibility Considerations
 Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
 **Guidance:** Outline how you've incorporated accessibility into your design, ensuring that your project adheres to guidelines such as WCAG.
-
-#### Initial HTML Validation
-
-<img src="" alt="Initial results from HTML validation"/>
-
-<img src="" alt="Results after fixes from HTML validation"/>
-
-#### CSS Validation
-
-<img src="" alt="Results from CSS validation"/>
-
-<img src="" alt="CSS Warnings"/>
 
 ### Colour Scheme and Font Choices
 
@@ -96,8 +90,16 @@ Chosen Fonts to be used throughout the project
 
 ### Core Features (Must-Haves)
 - **Feature 1:** Hero Section with a welcoming background image.
+
+<img src="./assets/images/Hero-section.png" alt="Image of the hero section" />
+
 - **Feature 2:** Information cards, containing relevant and concise information.
+
+<img src="./assets/images//info-cards.png" alt="Image of information cards section" />
+
 - **Feature 3:** Consistent navigation on the site, allowing users to jump to different sections of the website.
+
+<img src="./assets/images/navbar.png" alt="Image of the navigation bar" />
 
 ### Advanced Features (Should-Haves)
 - **Feature 1:** Ensure there is a well formatted form on the website to enabled users the ability to enter their details, such as name and email address. Including this feature enhanced user engagement and usability, it would also benefit the site owner as they not only get subscribers to their newsletter but also can use these metrics to gauge interest.
@@ -124,19 +126,31 @@ Mention any issues found and how they were resolved.
 **Guidance:** Summarize the results of your testing across various devices using tools like Chrome DevTools, as outlined in Phase 2. Mention any issues found and how they were resolved.
 
 #### Bugs and Fixes
-Background Image was shrinking with screen size, background: url("../images/heart-hands.jpg") no-repeat center;
+One minor bug but now fixed was how the hero section background image was shrinking and sliding in an undesired manor as the scene got smaller. This was fixed by tweaking the background image in the CSS file, background: url("../images/heart-hands.jpg") no-repeat center; the no-repeat center was added.
+
+Navigation bar was not expanding into the burger icon at the correct screen size. Initial set with the bootstrap class of navbar-expand-sm, this was changed to md instead thus creating a more responsive navbar.
 
 ### Validation
 Discuss the validation process for HTML and CSS using W3C and Jigsaw validators.  
 Include the results of the validation process.  
 **Guidance:** Document your use of W3C and Jigsaw validators to ensure your HTML and CSS meet web standards. Include any errors or warnings encountered and how they were resolved.
 
+#### Initial HTML Validation
+
+<img src="" alt="Initial results from HTML validation"/>
+
+<img src="" alt="Results after fixes from HTML validation"/>
+
+#### CSS Validation
+
+<img src="" alt="Results from CSS validation"/>
+
+<img src="" alt="CSS Warnings"/>
+
 ## Deployment
 
 ### Deployment Process
-Briefly describe the deployment process to GitHub Pages or another cloud platform.  
-Mention any specific challenges encountered during deployment.  
-**Guidance:** Describe the steps you took to deploy your website during Phase 4: Final Testing, Debugging & Deployment, including any challenges encountered.
+The deployment process used for this project is via Github and Github pages, Github pages allows the hosting of a simple front end web applications. The process is fairly simple as github pages simply pulls the required information from the respective repo.
 
 ### Git, Github and Github Pages
 
@@ -147,6 +161,8 @@ The project is deployed via Github Pages, the process is detailed below.
 <img src="/assets/images/Github-pages-deploy.png" alt="Github pages deployment setup">
 
 <img src="/assets/images/initial-early-deployment.png" alt="Github pages early deployment">
+
+<img src="/assets/images/final-deployment.png" alt="Github pages final deployment">
 
 ## Reflection on Development Process
 
