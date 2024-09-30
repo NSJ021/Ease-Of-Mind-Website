@@ -127,3 +127,30 @@ body {
     margin: 25px 0;
     color: white;
 }
+
+/* ------------- Information Section ---------- */
+
+.info-p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ------------- Buttons ------------- */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 300px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #A73121;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #952323;
+    color: white;
+}
