@@ -55,14 +55,13 @@ Ease Of Mind is for any individual who feels their mental health is suffering or
 
 <img src="/assets/images/mobile-wireframe.png" alt="Mobile Wireframe image of the design of the website">
 <br>
-<img src="/assets/images/mtablet-wireframe.png" alt="Tablet Wireframe image of the design of the website">
+<img src="/assets/images/tablet-wireframe.png" alt="Tablet Wireframe image of the design of the website">
 <br>
 <img src="/assets/images/desktop-wireframe.png" alt="Desktop Wireframe image of the design of the website">
 <br>
 
 ### Accessibility Considerations
-Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
-**Guidance:** Outline how you've incorporated accessibility into your design, ensuring that your project adheres to guidelines such as WCAG.
+With regard to accessibilty a variety of topics need to be considered, some of these are colour contrast, having alt text for images and readable fonts.
 
 ### Colour Scheme and Font Choices
 
