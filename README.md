@@ -128,6 +128,13 @@ Mention any specific challenges encountered during deployment.
 
 ### Git, Github and Github Pages
 
+Git, Github and Github Pages are used in thie project for all hosting, version control and storage of the project.
+
+The project is deployed via Github Pages, the process is detailed below.
+
+<img src="/assets/images/Github-pages-deploy.png" alt="Github pages deployment setup">
+
+<img src="/assets/images/initial-early-deployment.png.png" alt="Github pages early deployment">
 
 ## Reflection on Development Process
 
