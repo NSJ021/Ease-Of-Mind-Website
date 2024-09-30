@@ -134,7 +134,7 @@ The project is deployed via Github Pages, the process is detailed below.
 
 <img src="/assets/images/Github-pages-deploy.png" alt="Github pages deployment setup">
 
-<img src="/assets/images/initial-early-deployment.png.png" alt="Github pages early deployment">
+<img src="/assets/images/initial-early-deployment.png" alt="Github pages early deployment">
 
 ## Reflection on Development Process
 
