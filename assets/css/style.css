@@ -38,6 +38,19 @@ body {
     margin: 0;
 }
 
+/* ------------- Animations -------------- */
+
+.bounce {
+    transition: transform 550ms;
+    will-change: transform;
+
+  }
+  .bounce:hover,
+  .bounce:focus {
+    transform: translateY(10px);
+  }
+
+
 /* ------------- NavBar ------------- */
 
 .navbar {
@@ -175,6 +188,8 @@ body {
     text-align: center;
     margin-bottom: 40px;
     border-radius: 25px;
+    background-color: var(--cream);
+    
 }
 
 .card i {
@@ -201,6 +216,8 @@ body {
     margin-top: 10px;
     color: #fafafa;
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+
 }
 
 .card .btn--red:hover,
@@ -209,6 +226,7 @@ body {
 .card .btn--red:active:focus {
     background-color: var(--Warm-red);
     color: var(--off-white);
+
 }
 
 
