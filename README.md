@@ -12,7 +12,7 @@ Is a Mental Health Awareness and Wellbeing webpage. With a focus on providing cl
 ### Target Audience
 
 ### Who is it for?
-Ease Of Mind is for any individual who feels their mental health is suffering or has concerns about related issues. No particular age group is targeted or demographic as the website is intended for all to benefit from.
+Ease Of Mind is for any individual who feels their mental health is suffering or has concerns about related issues. No particular age group is targeted or demographic as the website is intended for all to benefit from. The aim of Ease Of Mind is to point people in the right direction depending on there needs, however the focus of the page is more orientated towards providing activities and information for people to help maintain their mental well-being.
 
 ## User Stories
 
@@ -30,17 +30,20 @@ Ease Of Mind is for any individual who feels their mental health is suffering or
   [User story #3](https://github.com/NSJ021/Ease-Of-Mind-Website-CI-Project/issues/3)
 
 ### Should-Have User Stories
-- **User Story 1:** As as user, I would like to sign up to a monthly newsletter. 
+- **User Story 4:** As as user, I would like to sign up to a monthly newsletter. 
   **Acceptance Criteria:** Include a form on the website to enable the user to submit their information.
   [User Story #4](https://github.com/NSJ021/Ease-Of-Mind-Website-CI-Project/issues/4)
 
 
 ### Could-Have User Stories
-- **User Story 1:** As a user, I would enjoy interactive content.  
+- **User Story 5:** As a user, I would enjoy interactive content.  
   **Acceptance Criteria:** Utilise Javascript and other media methods to enhance user interactions.
   [User Story #5](https://github.com/NSJ021/Ease-Of-Mind-Website-CI-Project/issues/5)
 
 ### Github Issues and Project
+
+For this project I deceided to use the Github issues and projects section as a form of adapting Agile principles into the project.
+The project board contains all To-do, In progress and Completed User stories, the user stories themselves are GitHub issues. The options on Github are not exactly Agile authentic but they serve a similar purpose in regard to organisation and keeping track of progress.
 
 <img src="/assets/images/Github-user-story-template.png" alt="Github issues template setup">
 <br>
@@ -52,6 +55,8 @@ Ease Of Mind is for any individual who feels their mental health is suffering or
 ## Design Decisions
 
 ### Wireframes
+
+Below shows the design and thought process for the different screen-sizes which need to be considered. Mobile, Tablet and Desktop, with a focus on mobile first then adapting to larger screen sizes. The wireframes show and highlight key features and how screen-size impacts them.
 
 <img src="/assets/images/mobile-wireframe.png" alt="Mobile Wireframe image of the design of the website">
 <br>
@@ -68,7 +73,6 @@ With regard to accessibilty a variety of topics need to be considered, some of t
 Chosen Colour Scheme, to provide a warm, gentle and cosy tone
 
 <img src="./assets/images/Color_Palette.png" alt="Colour Palette"/>
-
 <br>
 
 #### Fonts
@@ -120,31 +124,30 @@ ChatGPT was used minimally, for content generation ideas. Such as what topics to
 ## Testing and Validation
 
 ### Testing Results
-Summarize the results of testing across different devices and screen sizes.  
-Mention any issues found and how they were resolved.  
-**Guidance:** Summarize the results of your testing across various devices using tools like Chrome DevTools, as outlined in Phase 2. Mention any issues found and how they were resolved.
+Various testing has taken place throughout the project. Firstly checking screen responsive across mobile and tablet was an ongoing testing process. Generally all elements display well. Some elements required tweaking here and there with margins and padding to ensure items were as visible as possible on all screensizes and orientations. Testing was also performed with Dev tools, they were primarily used to troubleshoot and resolve minor inconsistencies.
 
 #### Bugs and Fixes
 One minor bug but now fixed was how the hero section background image was shrinking and sliding in an undesired manor as the scene got smaller. This was fixed by tweaking the background image in the CSS file, background: url("../images/heart-hands.jpg") no-repeat center; the no-repeat center was added.
 
-Navigation bar was not expanding into the burger icon at the correct screen size. Initial set with the bootstrap class of navbar-expand-sm, this was changed to md instead thus creating a more responsive navbar.
+Another minor bug was that the Navigation bar was not expanding into the burger icon at the correct screen size. Initial set with the bootstrap class of navbar-expand-sm, this was changed to md instead thus creating a more responsive navbar.
 
 ### Validation
-Discuss the validation process for HTML and CSS using W3C and Jigsaw validators.  
-Include the results of the validation process.  
-**Guidance:** Document your use of W3C and Jigsaw validators to ensure your HTML and CSS meet web standards. Include any errors or warnings encountered and how they were resolved.
+
+Both index.html and style.css have been ran through the appropriate validators:
+<br>
+[HTML Validator](https://validator.w3.org/)
+<br>
+[CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+There we some minor issues, primarily forgetting alt text attributes on some images and some miss placed forward slash /. All have been resolved.
 
 #### Initial HTML Validation
 
-<img src="" alt="Initial results from HTML validation"/>
-
-<img src="" alt="Results after fixes from HTML validation"/>
+<img src="" alt="Results from HTML validation"/>
 
 #### CSS Validation
 
 <img src="" alt="Results from CSS validation"/>
-
-<img src="" alt="CSS Warnings"/>
 
 ## Deployment
 
@@ -166,24 +169,19 @@ The project is deployed via Github Pages, the process is detailed below.
 ## Reflection on Development Process
 
 ### Successes
-With various trial and error, the creation of a warm, welcoming website was achieved. Although basic in functionality getting the scrollable background hero image was a good achievement and a great feature of the webpage.
+With various trial and error, the creation of a warm, welcoming website was achieved. Although basic in functionality getting the scrollable background hero image was a good achievement and a great feature of the webpage. Using the bootstrap cards was another great addition and success for acheiving the desired feel for the webpage.
 
 ### Challenges
 
 From learning CSS and transitioning to BootStrap, some elements were made easy but then others were made more difficult due to having to learn new documentation, classes and methods of work.
 
 ### Final Thoughts
-Provide any additional insights gained during the project and thoughts on the overall process.  
-**Guidance:** Begin drafting reflections during Phase 1 and update throughout the project. Finalize this section after Phase 4. Highlight successes and challenges, particularly regarding the use of AI tools, and provide overall insights into the project.
+Overall the project was a good success, all must and should have features and user stories were completed to a MVP state, there is always room for improvement and optimisation. Such could have user stories and features would ned to be added during the next iteraton of the project.
 
 ## Code Attribution
-Properly attribute any external code sources used in the project (excluding GitHub Copilot-generated code).  
-**Guidance:** Document any external code sources used throughout the entire project, especially during Phase 2 and Phase 3. Exclude GitHub Copilot-generated code from attribution.
 
-Code Institute - Snippets and Inspirations from Love Running,, Whiskey Drop and Love Rosie Projects
+Code Institute - Snippets and Inspirations from Love Running, Whiskey Drop and Love Rosie Projects
 
 ## Future Improvements
-Briefly discuss potential future improvements or features that could be added to the project.  
-**Guidance:** Reflect on potential enhancements that could be made to the project after Phase 4: Final Testing, Debugging & Deployment. These could be Could user story features you didn’t have time to implement or improvements based on testing feedback.
 
-Future improvements would to increase the interactions for the user, perhaps more videos /  other media content. Quizzes Etc.
+Future improvements would to increase the interactions for the user, perhaps more videos /  other media content. Quizzes Etc. However I did decide to add a gallery section which only enhanced the websites content further and provided some more visual content.
