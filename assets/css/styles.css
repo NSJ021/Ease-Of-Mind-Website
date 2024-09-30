@@ -25,3 +25,37 @@ body {
     margin: 0;
 }
 
+/* ------------- NavBar ------------- */
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: #F5ECD1;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #fafafa;
+    padding-left: 40px;
+    padding-right: 25px;
+}
+
+.navbar-brand:hover {
+    color: #F5ECD1;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+    color: #fafafa;
+    padding-left: 20px;
+}
+
+.navbar .navbar-nav a:hover {
+    color: #F5ECD1;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
