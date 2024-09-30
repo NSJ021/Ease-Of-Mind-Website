@@ -21,7 +21,7 @@ Ease Of Mind is for any individual who feels their mental health is suffering or
 
 - **User Story 2:** As a user, I require the ability to quickly navigate the site to a desired section.  
   **Acceptance Criteria:** Provide quick, easy to use access to all areas of the website (Navigation Bar, links to website sections)
-  [user Story #2](https://github.com/NSJ021/Ease-Of-Mind-Website-CI-Project/issues/2)
+  [User Story #2](https://github.com/NSJ021/Ease-Of-Mind-Website-CI-Project/issues/2)
 
 - **User Story 3:** As the site owner, I require a welcoming webpage that displays mental health information in a clear manner.  
   **Acceptance Criteria:** Ensure information is on topic, relevant and displayed clearly, whilst taking considerations in design to make sure the website is welcoming, focusing on colour schemes and layout.
@@ -30,13 +30,13 @@ Ease Of Mind is for any individual who feels their mental health is suffering or
 ### Should-Have User Stories
 - **User Story 1:** As as user, I would like to sign up to a monthly newsletter. 
   **Acceptance Criteria:** Include a form on the website to enable the user to submit their information.
-  [user Story #4](https://github.com/NSJ021/Ease-Of-Mind-Website-CI-Project/issues/4)
+  [User Story #4](https://github.com/NSJ021/Ease-Of-Mind-Website-CI-Project/issues/4)
 
 
 ### Could-Have User Stories
 - **User Story 1:** As a user, I would enjoy interactive content.  
   **Acceptance Criteria:** Utilise Javascript and other media methods to enhance user interactions.
-    [User Story #5](https://github.com/NSJ021/Ease-Of-Mind-Website-CI-Project/issues/5)
+  [User Story #5](https://github.com/NSJ021/Ease-Of-Mind-Website-CI-Project/issues/5)
 
 ### Github Issues and Project
 
