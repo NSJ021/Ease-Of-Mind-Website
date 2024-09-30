@@ -64,15 +64,20 @@ Chosen Colour Scheme, to provide a warm, gentle and cosy tone
 
 <img src="./assets/images/Color_Palette.png" alt="Colour Palette"/>
 
+<br>
+
+#### Fonts
 Chosen Fonts to be used throughout the project
+<br>
 [Lobster](https://fonts.google.com/specimen/Lobster)
+<br>
 [Roboto](https://fonts.google.com/specimen/Roboto)
 
 #### Colour Contrast Considerations
 
+[WCAG Color Contrast Checker](https://accessibleweb.com/color-contrast-checker/)
 
-
-<img src="./assets/images/.png" alt="Colour Contrast being checked" />
+<img src="./assets/images/Colour-Contrast-Check.png" alt="Colour Contrast being checked" />
 
 
 ## Features Implementation
@@ -82,28 +87,18 @@ Chosen Fonts to be used throughout the project
 - **Feature 2:** Information cards, containing relevant and concise information.
 - **Feature 3:** Consistent navigation on the site, allowing users to jump to different sections of the website.
 
-(Include all must-have features)  
-**Guidance:** Use this section as you complete Phase 2: Must User Stories Implementation & Testing. Document all the must-have features you implemented, explaining how they align with the user stories and acceptance criteria.
-
 ### Advanced Features (Should-Haves)
 - **Feature 1:** Ensure there is a well formatted form on the website to enabled users the ability to enter their details, such as name and email address. Including this feature enhanced user engagement and usability, it would also benefit the site owner as they not only get subscribers to their newsletter but also can use these metrics to gauge interest.
-
-- **Feature 2:** Description of the implemented feature.
-
-(Include all should-have features)  
-**Guidance:** Include any advanced features you implemented during Phase 3: Should User Stories Implementation & Any Advanced Features. Explain how these features enhance user experience and their alignment with the acceptance criteria.
 
 ### Optional Features (Could-Haves)
 - **Feature 1:** Enhancing user interaction, this could be done via additional media types e.g. videos. Or perhaps the use of Javascript to create more interactions on the website in general.
 
-- **Feature 2:** Description of the implemented feature (if any).
-
-(Include any could-have features that were implemented or considered)  
-**Guidance:** If any could-have features were implemented, describe them here. This is an opportunity to showcase extra work done beyond the initial scope. But remember - keep it simple! Focus on the Must stories first. Could user story features are commonly earmarked for future project iterations.
 
 ### Content and Image References
 Images were primarily take from [Lorum Picsum](https://picsum.photos/)
+<br>
 Content topics and suggestions were obtained via personal research and ChatGPT.
+<br>
 Logo Images from various apps were used, they were taken from the appropriate apps homepage. E.g Calm.com, Headspace.com, National Trust.com
 
 #### ChatGPT
