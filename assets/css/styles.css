@@ -59,21 +59,3 @@ body {
 .navbar .navbar-toggler {
     border: 0;
 }
-
-/* ------------- Hero Section ------------- */
-
-.hero-container {
-    height: 75vh;
-    background: url("../images/heart-hands.jpg") no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin-top: 48px;
-    position: relative;
-}
