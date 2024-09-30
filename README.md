@@ -1,126 +1,160 @@
-Project Title
-Overview
-Purpose
+# Ease Of Mind
 
-A brief description of the project's purpose, what it aims to achieve, and the value it provides to the users.
-Guidance: Begin filling out this section during Phase 1: Ideation & Initial Setup. Clearly articulate the main goal of your project, what it aims to achieve, and how it will provide value to your target audience.
-Target Audience
+## Overview
 
-Identify the target audience for your website and explain why this audience will benefit from the project.
-Guidance: Use this section to identify who will benefit from your project and why. This should be informed by your user stories and overall project objectives.
-User Stories
-Must-Have User Stories
+### Purpose
 
-    User Story 1: Briefly describe the must-have feature.
-    Acceptance Criteria: List the criteria that define the successful implementation of this user story.
-    User Story 2: Briefly describe the must-have feature.
-    Acceptance Criteria: List the criteria that define the successful implementation of this user story.
+### Ease Of Mind ----
+Is a Mental Health Awareness and Wellbeing webpage. With a focus on providing clarity, information and suggestions on how to manage and maintain your mental health. This webpage aims to provide useful information, links, resources and potential activities for its users.
 
-(Include all prioritized must-have features)
-Guidance: Draft the user stories during Phase 1: Ideation & Initial Setup and update them as you complete Phase 2: Must User Stories Implementation & Testing. Document each must-have feature here along with its acceptance criteria.
-Should-Have User Stories
+### Target Audience
 
-    User Story 1: Briefly describe the should-have feature.
-    Acceptance Criteria: List the criteria that define the successful implementation of this user story.
-    User Story 2: Briefly describe the should-have feature.
-    Acceptance Criteria: List the criteria that define the successful implementation of this user story.
+### Who is it for? ----
+Ease Of Mind is for any individual who feels their mental health is suffering or has concerns about related issues. No particular age group is targeted or demographic as the website is intended for all to benefit from.
 
-(Include all prioritized should-have features)
-Guidance: Document the secondary features that you aim to implement in Phase 3: Should User Stories Implementation & Any Advanced Features. Include clear acceptance criteria for each.
-Could-Have User Stories
+## User Stories
 
-    User Story 1: Briefly describe the could-have feature.
-    Acceptance Criteria: List the criteria that define the successful implementation of this user story.
-    User Story 2: Briefly describe the could-have feature.
-    Acceptance Criteria: List the criteria that define the successful implementation of this user story.
+### Must-Have User Stories
+- **User Story 1:** As a user, I must be able to access clear information about mental health topics. 
+  **Acceptance Criteria:** Provide relevant content, ensure formatting is clear and concise.
 
-(Include any could-have features considered for future enhancements)
-Guidance: Document any optional features that are nice to have but not essential.
-Design Decisions
-Wireframes
+- **User Story 2:** As a user, I require the ability to quickly navigate the site to a desired section.  
+  **Acceptance Criteria:** Provide quick, easy to use access to all areas of the website (Navigation Bar, links to website sections)
 
-Include wireframes for key sections of your website.
-Briefly describe the design choices, including layout, colour schemes, and fonts.
-Guidance: Start this section during Phase 1: Ideation & Initial Setup and update it throughout Phase 2 and Phase 3. Include digital wireframes created in Phase 1. Document the reasoning behind your layout choices, colour schemes, and font selections.
-Accessibility Considerations
+- **User Story 3:** As the site owner, I require a welcoming webpage that displays mental health information in a clear manner.  
+  **Acceptance Criteria:** Ensure information is on topic, relevant and displayed clearly, whilst taking considerations in design to make sure the website is welcoming, focusing on colour schemes and layout.
 
-Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.
-Guidance: Outline how you've incorporated accessibility into your design, ensuring that your project adheres to guidelines such as WCAG.
-AI Tools Usage
-DALL-E
+### Should-Have User Stories
+- **User Story 1:** As as user, I would like to sign up to a monthly newsletter. 
+  **Acceptance Criteria:** Include a form on the website to enable the user to submit their information.
 
-Describe how DALL-E was used for image generation, including examples of successes and challenges.
-Guidance: Specifically mention how you used DALL-E for image generation and the impact this had on your design process.
-Features Implementation
-Core Features (Must-Haves)
+- **User Story 2:** Briefly describe the should-have feature.  
+  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
 
-    Feature 1: Description of the implemented feature.
-    Feature 2: Description of the implemented feature.
+### Could-Have User Stories
+- **User Story 1:** As a user, I would enjoy interactive content.  
+  **Acceptance Criteria:** Utilise Javascript and other media methods to enhance user interactions.
 
-(Include all must-have features)
-Guidance: Use this section as you complete Phase 2: Must User Stories Implementation & Testing. Document all the must-have features you implemented, explaining how they align with the user stories and acceptance criteria.
-Advanced Features (Should-Haves)
+## Design Decisions
 
-    Feature 1: Description of the implemented feature.
-    Feature 2: Description of the implemented feature.
+### Wireframes
+Include wireframes for key sections of your website.  
+Briefly describe the design choices, including layout, colour schemes, and fonts.  
+**Guidance:** Start this section during Phase 1: Ideation & Initial Setup and update it throughout Phase 2 and Phase 3. Include digital wireframes created in Phase 1. Document the reasoning behind your layout choices, colour schemes, and font selections.
 
-(Include all should-have features)
-Guidance: Include any advanced features you implemented during Phase 3: Should User Stories Implementation & Any Advanced Features. Explain how these features enhance user experience and their alignment with the acceptance criteria.
-Optional Features (Could-Haves)
+### Accessibility Considerations
+Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
+**Guidance:** Outline how you've incorporated accessibility into your design, ensuring that your project adheres to guidelines such as WCAG.
 
-    Feature 1: Description of the implemented feature (if any).
-    Feature 2: Description of the implemented feature (if any).
+#### Initial HTML Validation
 
-(Include any could-have features that were implemented or considered)
-Guidance: If any could-have features were implemented, describe them here. This is an opportunity to showcase extra work done beyond the initial scope. But remember - keep it simple! Focus on the Must stories first. Could user story features are commonly earmarked for future project iterations.
-AI Tools Usage
-GitHub Copilot
+<img src="" alt="Initial results from HTML validation"/>
 
-Describe how GitHub Copilot assisted in coding, including any challenges or adjustments needed.
-Guidance: Reflect on how GitHub Copilot assisted in coding, particularly any challenges or adjustments that were needed to align with project goals.
-Testing and Validation
-Testing Results
+<img src="" alt="Results after fixes from HTML validation"/>
 
-Summarize the results of testing across different devices and screen sizes.
-Mention any issues found and how they were resolved.
-Guidance: Summarize the results of your testing across various devices using tools like Chrome DevTools, as outlined in Phase 2. Mention any issues found and how they were resolved.
-Validation
+#### CSS Validation
 
-Discuss the validation process for HTML and CSS using W3C and Jigsaw validators.
-Include the results of the validation process.
-Guidance: Document your use of W3C and Jigsaw validators to ensure your HTML and CSS meet web standards. Include any errors or warnings encountered and how they were resolved.
-AI Tools Usage
-GitHub Copilot
+<img src="" alt="Results from CSS validation"/>
 
-Brief reflection on the effectiveness of using AI tools for debugging and validation.
-Guidance: Reflect on how GitHub Copilot assisted with debugging and validation, particularly any issues it helped resolve.
-Deployment
-Deployment Process
+<img src="" alt="CSS Warnings"/>
 
-Briefly describe the deployment process to GitHub Pages or another cloud platform.
-Mention any specific challenges encountered during deployment.
-Guidance: Describe the steps you took to deploy your website during Phase 4: Final Testing, Debugging & Deployment, including any challenges encountered.
-AI Tools Usage
-Reflection
+### Colour Scheme and Font Choices
 
-Describe the role AI tools played in the deployment process, including any benefits or challenges.
-Guidance: Reflect on how AI tools assisted with the deployment process, particularly how they streamlined any tasks or presented challenges.
-Reflection on Development Process
-Successes
+Chosen Colour Scheme, to provide a warm, gentle and cosy tone
 
-Effective use of AI tools, including GitHub Copilot and DALL-E, and how they contributed to the development process.
-Challenges
+<img src="./assets/images/Color_Palette.png" alt="Colour Palette"/>
 
-Describe any challenges faced when integrating AI-generated content and how they were addressed.
-Final Thoughts
+Chosen Fonts to be used throughout the project
+[Lobster](https://fonts.google.com/specimen/Lobster)
+[Roboto](https://fonts.google.com/specimen/Roboto)
 
-Provide any additional insights gained during the project and thoughts on the overall process.
-Guidance: Begin drafting reflections during Phase 1 and update throughout the project. Finalize this section after Phase 4. Highlight successes and challenges, particularly regarding the use of AI tools, and provide overall insights into the project.
-Code Attribution
+#### Colour Contrast Considerations
 
-Properly attribute any external code sources used in the project (excluding GitHub Copilot-generated code).
-Guidance: Document any external code sources used throughout the entire project, especially during Phase 2 and Phase 3. Exclude GitHub Copilot-generated code from attribution.
-Future Improvements
-Briefly discuss potential future improvements or features that could be added to the project.
-Guidance: Reflect on potential enhancements that could be made to the project after Phase 4: Final Testing, Debugging & Deployment. These could be Could user story features you didn’t have time to implement or improvements based on testing feedback.
 
+
+<img src="./assets/images/.png" alt="Colour Contrast being checked" />
+
+
+## Features Implementation
+
+### Core Features (Must-Haves)
+- **Feature 1:** Hero Section with a welcoming background image.
+- **Feature 2:** Information cards, containing relevant and concise information.
+- **Feature 3:** Consistent navigation on the site, allowing users to jump to different sections of the website.
+
+(Include all must-have features)  
+**Guidance:** Use this section as you complete Phase 2: Must User Stories Implementation & Testing. Document all the must-have features you implemented, explaining how they align with the user stories and acceptance criteria.
+
+### Advanced Features (Should-Haves)
+- **Feature 1:** Ensure there is a well formatted form on the website to enabled users the ability to enter their details, such as name and email address. Including this feature enhanced user engagement and usability, it would also benefit the site owner as they not only get subscribers to their newsletter but also can use these metrics to gauge interest.
+
+- **Feature 2:** Description of the implemented feature.
+
+(Include all should-have features)  
+**Guidance:** Include any advanced features you implemented during Phase 3: Should User Stories Implementation & Any Advanced Features. Explain how these features enhance user experience and their alignment with the acceptance criteria.
+
+### Optional Features (Could-Haves)
+- **Feature 1:** Enhancing user interaction, this could be done via additional media types e.g. videos. Or perhaps the use of Javascript to create more interactions on the website in general.
+
+- **Feature 2:** Description of the implemented feature (if any).
+
+(Include any could-have features that were implemented or considered)  
+**Guidance:** If any could-have features were implemented, describe them here. This is an opportunity to showcase extra work done beyond the initial scope. But remember - keep it simple! Focus on the Must stories first. Could user story features are commonly earmarked for future project iterations.
+
+### Content and Image References
+Images were primarily take from [Lorum Picsum](https://picsum.photos/)
+Content topics and suggestions were obtained via personal research and ChatGPT.
+Logo Images from various apps were used, they were taken from the appropriate apps homepage. E.g Calm.com, Headspace.com, National Trust.com
+
+#### ChatGPT
+ChatGPT was used minimally, for content generation ideas. Such as what topics to mention, possible activities to promote mental health and example images.
+
+## Testing and Validation
+
+### Testing Results
+Summarize the results of testing across different devices and screen sizes.  
+Mention any issues found and how they were resolved.  
+**Guidance:** Summarize the results of your testing across various devices using tools like Chrome DevTools, as outlined in Phase 2. Mention any issues found and how they were resolved.
+
+#### Bugs and Fixes
+Background Image was shrinking with screen size, background: url("../images/heart-hands.jpg") no-repeat center;
+
+### Validation
+Discuss the validation process for HTML and CSS using W3C and Jigsaw validators.  
+Include the results of the validation process.  
+**Guidance:** Document your use of W3C and Jigsaw validators to ensure your HTML and CSS meet web standards. Include any errors or warnings encountered and how they were resolved.
+
+## Deployment
+
+### Deployment Process
+Briefly describe the deployment process to GitHub Pages or another cloud platform.  
+Mention any specific challenges encountered during deployment.  
+**Guidance:** Describe the steps you took to deploy your website during Phase 4: Final Testing, Debugging & Deployment, including any challenges encountered.
+
+### Git, Github and Github Pages
+
+
+## Reflection on Development Process
+
+### Successes
+With various trial and error, the creation of a warm, welcoming website was achieved. Although basic in functionality getting the scrollable background hero image was a good achievement and a great feature of the webpage.
+
+### Challenges
+
+From learning CSS and transitioning to BootStrap, some elements were made easy but then others were made more difficult due to having to learn new documentation, classes and methods of work.
+
+### Final Thoughts
+Provide any additional insights gained during the project and thoughts on the overall process.  
+**Guidance:** Begin drafting reflections during Phase 1 and update throughout the project. Finalize this section after Phase 4. Highlight successes and challenges, particularly regarding the use of AI tools, and provide overall insights into the project.
+
+## Code Attribution
+Properly attribute any external code sources used in the project (excluding GitHub Copilot-generated code).  
+**Guidance:** Document any external code sources used throughout the entire project, especially during Phase 2 and Phase 3. Exclude GitHub Copilot-generated code from attribution.
+
+Code Institute - Snippets and Inspirations from Love Running,, Whiskey Drop and Love Rosie Projects
+
+## Future Improvements
+Briefly discuss potential future improvements or features that could be added to the project.  
+**Guidance:** Reflect on potential enhancements that could be made to the project after Phase 4: Final Testing, Debugging & Deployment. These could be Could user story features you didn’t have time to implement or improvements based on testing feedback.
+
+Future improvements would to increase the interactions for the user, perhaps more videos /  other media content. Quizzes Etc.
