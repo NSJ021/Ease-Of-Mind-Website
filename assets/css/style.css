@@ -199,6 +199,29 @@ body {
 }
 
 
+/* ------------ Links/Resources Section  ------------ */
+
+
+.accordion-item {
+    font-family: 'Roboto', sans-serif;
+}
+
+.accordion-item .accordion-button {
+    background-color: #DAD4B5;
+    color: black
+}
+
+.accordion-body {
+    background-color: #F5ECD1;
+
+}
+
+.accordion-body p a {
+    text-decoration: none;
+    color: #952323;
+}
+
+
 /* --------------- Footer ---------------- */
 
 .social-links {
