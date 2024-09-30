@@ -17,23 +17,35 @@ Ease Of Mind is for any individual who feels their mental health is suffering or
 ### Must-Have User Stories
 - **User Story 1:** As a user, I must be able to access clear information about mental health topics. 
   **Acceptance Criteria:** Provide relevant content, ensure formatting is clear and concise.
+  [User Story #1](https://github.com/NSJ021/Ease-Of-Mind-Website-CI-Project/issues/1)
 
 - **User Story 2:** As a user, I require the ability to quickly navigate the site to a desired section.  
   **Acceptance Criteria:** Provide quick, easy to use access to all areas of the website (Navigation Bar, links to website sections)
+  [user Story #2](https://github.com/NSJ021/Ease-Of-Mind-Website-CI-Project/issues/2)
 
 - **User Story 3:** As the site owner, I require a welcoming webpage that displays mental health information in a clear manner.  
   **Acceptance Criteria:** Ensure information is on topic, relevant and displayed clearly, whilst taking considerations in design to make sure the website is welcoming, focusing on colour schemes and layout.
+  [User story #3](https://github.com/NSJ021/Ease-Of-Mind-Website-CI-Project/issues/3)
 
 ### Should-Have User Stories
 - **User Story 1:** As as user, I would like to sign up to a monthly newsletter. 
   **Acceptance Criteria:** Include a form on the website to enable the user to submit their information.
+  [user Story #4](https://github.com/NSJ021/Ease-Of-Mind-Website-CI-Project/issues/4)
 
-- **User Story 2:** Briefly describe the should-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
 
 ### Could-Have User Stories
 - **User Story 1:** As a user, I would enjoy interactive content.  
   **Acceptance Criteria:** Utilise Javascript and other media methods to enhance user interactions.
+    [User Story #5](https://github.com/NSJ021/Ease-Of-Mind-Website-CI-Project/issues/5)
+
+### Github Issues and Project
+
+<img src="/assets/images/Github-user-story-template.png" alt="Github issues template setup">
+<br>
+<img src="/assets/images/github-user-story-issues.png" alt="Github issues user stories">
+<br>
+<img src="/assets/images/github-project-board.png" alt="Github projects board setup">
+<br>
 
 ## Design Decisions
 
