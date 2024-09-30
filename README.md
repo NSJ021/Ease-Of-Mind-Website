@@ -1,6 +1,8 @@
 # Ease Of Mind
 
 <img src="assets/images/final-product.png" alt="Image of the final webpage">
+<br>
+
 
 ## Overview
 
@@ -9,10 +11,14 @@
 ### Ease Of Mind
 Is a Mental Health Awareness and Wellbeing webpage. With a focus on providing clarity, information and suggestions on how to manage and maintain your mental health. This webpage aims to provide useful information, links, resources and potential activities for its users.
 
+<img src="assets/images/final-product2.png" alt="Image of the final webpage">
+
 ### Target Audience
 
 ### Who is it for?
 Ease Of Mind is for any individual who feels their mental health is suffering or has concerns about related issues. No particular age group is targeted or demographic as the website is intended for all to benefit from. The aim of Ease Of Mind is to point people in the right direction depending on there needs, however the focus of the page is more orientated towards providing activities and information for people to help maintain their mental well-being.
+
+<img src="assets/images/final-product3.png" alt="Image of the final webpage">
 
 ## User Stories
 
@@ -181,6 +187,7 @@ Overall the project was a good success, all must and should have features and us
 ## Code Attribution
 
 Code Institute - Snippets and Inspirations from Love Running, Whiskey Drop and Love Rosie Projects
+[Josh Comeau - CSS Transitions](https://www.joshwcomeau.com/animation/css-transitions/) - Code snippets taken to create the bounce class and animation in style.css
 
 ## Future Improvements
 
