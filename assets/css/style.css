@@ -24,7 +24,6 @@
 }
 
 
-
 /* ------------- Global Styles ------------- */
 /* ------------- Overrides ------------- */
 
@@ -50,6 +49,59 @@ body {
     transform: translateY(10px);
   }
 
+/* ------------- Buttons ------------- */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 300px;
+}
+
+.btn--red {
+    color: var(--off-white);
+    background-color: var(--medium-red);
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: var(--Warm-red);
+    color: var(--off-white);
+}
+
+/* ------------- Content Containers ------------- */
+
+.content-container {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.container-beige {
+    background-color: var(--beige);
+}
+
+.container-light-beige {
+    background-color: var(--cream);
+}
+
+.container-wrapper--red {
+    background-color: var(--rich-red);
+    color: var(--off-white);
+}
+
+/* ------------- Page Headers ------------- */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+    padding: 3px 0px;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
 
 /* ------------- NavBar ------------- */
 
@@ -105,39 +157,6 @@ body {
     position: relative;
 }
 
-/* ------------- Page Headers ------------- */
-
-.page-header {
-    margin-bottom: 0;
-    border-bottom: 0;
-    text-align: center;
-    padding: 3px 0px;
-}
-
-.page-header h2 {
-    margin-top: 0;
-}
-
-/* ------------- Content Containers ------------- */
-
-.content-container {
-    padding-top: 20px;
-    padding-bottom: 50px;
-}
-
-.container-beige {
-    background-color: var(--beige);
-}
-
-.container-light-beige {
-    background-color: var(--cream);
-}
-
-.container-wrapper--red {
-    background-color: var(--rich-red);
-    color: var(--off-white);
-}
-
 /* ------------- Jumbotron ------------- */
 
 .jumbotron {
@@ -161,26 +180,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* ------------- Buttons ------------- */
-
-.btn--cta {
-    font-weight: bold;
-    border-radius: 23px;
-    width: 300px;
-}
-
-.btn--red {
-    color: var(--off-white);
-    background-color: var(--medium-red);
-}
-
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
-    background-color: var(--Warm-red);
-    color: var(--off-white);
-}
 
 /* ------------- Activities Section ---------- */
 
@@ -281,4 +280,10 @@ body {
 #footer-details {
     padding: 20px;
     background-color: var(--rich-red);
+}
+
+/* ------------ Newsletter SignUp Modal ------------ */
+
+.modal-title .h4 .h5{
+    justify-content: center;
 }
