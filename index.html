@@ -335,6 +335,39 @@
     </footer>
     <!-- /Footer -->
 
+    <!-- Modal Newsletter signup -->
+    <div class="modal fade" id="newsletterSignUp" tabindex="-1" role="dialog" aria-labelledby="newsletterSignUp"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="newsletterModalTitle">Ease Of Mind</h4>
+                    <h5 class="modal-title" id="newsletterModalTitle2">Newsletter</h5>
+                </div>
+                <div class="modal-body">
+                    <form action="https://formdump.codeinstitute.net/" method="post">
+                        <div class="mb-3">
+                            <label for="nameSignUp" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="nameSignUp" aria-describedby="nameSignUp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="emailSignUp" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="emailSignUp" aria-describedby="emailSignUp">
+                            <div id="emailSignUpSafety" class="form-text">We'll never share your email with anyone else.
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn--red" aria-label="Submit">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn--red" data-bs-dismiss="modal" aria-label="Close">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Modal Setup -->
+
+
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/817bb270b0.js" crossorigin="anonymous"></script>
 </body>
