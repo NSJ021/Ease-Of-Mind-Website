@@ -9,7 +9,7 @@
 ### Purpose
 
 ### Ease Of Mind
-Is a Mental Health Awareness and Wellbeing webpage. With a focus on providing clarity, information and suggestions on how to manage and maintain your mental health. This webpage aims to provide useful information, links, resources and potential activities for its users.
+Is a Mental Health Awareness and Well-being webpage. With a focus on providing clarity, information and suggestions on how to manage and maintain your mental health. This webpage aims to provide useful information, links, resources and potential activities for its users.
 
 <img src="assets/images/final-product2.png" alt="Image of the final webpage">
 
