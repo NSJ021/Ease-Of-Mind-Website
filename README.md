@@ -48,7 +48,7 @@ Ease Of Mind is for any individual who feels their mental health is suffering or
 
 ### Github Issues and Project
 
-For this project I deceided to use the Github issues and projects section as a form of adapting Agile principles into the project.
+For this project I decided to use the Github issues and projects section as a form of adapting Agile principles into the project.
 The project board contains all To-do, In progress and Completed User stories, the user stories themselves are GitHub issues. The options on Github are not exactly Agile authentic but they serve a similar purpose in regard to organisation and keeping track of progress.
 
 <img src="/assets/images/Github-user-story-template.png" alt="Github issues template setup">
@@ -62,7 +62,7 @@ The project board contains all To-do, In progress and Completed User stories, th
 
 ### Wireframes
 
-Below shows the design and thought process for the different screen-sizes which need to be considered. Mobile, Tablet and Desktop, with a focus on mobile first then adapting to larger screen sizes. The wireframes show and highlight key features and how screen-size impacts them.
+Below shows the design and thought process for the different screen-sizes which need to be considered. Mobile, Tablet and Desktop, with a focus on mobile first then adapting to larger screen sizes. The wire-frames show and highlight key features and how screen-size impacts them.
 
 <img src="/assets/images/mobile-wireframe.png" alt="Mobile Wireframe image of the design of the website">
 <br>
@@ -71,8 +71,14 @@ Below shows the design and thought process for the different screen-sizes which 
 <img src="/assets/images/desktop-wireframe.png" alt="Desktop Wireframe image of the design of the website">
 <br>
 
+### HTML & CSS Layout
+
+For the creation of both index.html and style.css, the HTML was structured using some semantic elements such as header, section and footer. Comments were used to symbolise the beginning and end of each key section.
+
+Style.css was formatted to match the layout of index.html in terms of structure. All variables and general styles are towards the top of the file, followed by a commented section for each main section of the HTML.
+
 ### Accessibility Considerations
-With regard to accessibilty a variety of topics need to be considered, some of these are colour contrast, having alt text for images and readable fonts.
+With regard to accessibility a variety of topics need to be considered, some of these are colour contrast, having alt text for images and readable fonts.
 
 ### Colour Scheme and Font Choices
 
@@ -140,7 +146,7 @@ ChatGPT was used minimally, for content generation ideas. Such as what topics to
 ## Testing and Validation
 
 ### Testing Results
-Various testing has taken place throughout the project. Firstly checking screen responsive across mobile and tablet was an ongoing testing process. Generally all elements display well. Some elements required tweaking here and there with margins and padding to ensure items were as visible as possible on all screensizes and orientations. Testing was also performed with Dev tools, they were primarily used to troubleshoot and resolve minor inconsistencies.
+Various testing has taken place throughout the project. Firstly checking screen responsive across mobile and tablet was an ongoing testing process. Generally all elements display well. Some elements required tweaking here and there with margins and padding to ensure items were as visible as possible on all screen-sizes and orientations. Testing was also performed with Dev tools, they were primarily used to troubleshoot and resolve minor inconsistencies.
 
 #### Bugs and Fixes
 One minor bug but now fixed was how the hero section background image was shrinking and sliding in an undesired manor as the scene got smaller. This was fixed by tweaking the background image in the CSS file, background: url("../images/heart-hands.jpg") no-repeat center; the no-repeat center was added.
@@ -168,6 +174,16 @@ There we some minor issues, primarily forgetting alt text attributes on some ima
 #### CSS Warnings
 <img src="assets/images/Css-warnings.png" alt="CSS warnings"/>
 
+With regard to the CSS variables, the list below is all variables used in style.css, these were done to enable easier management of the colour scheme.
+
+    --off-white: #fafafa;
+    --cream: #F5ECD1;
+    --beige: #DAD4B5;
+    --medium-red: #A73121;
+    --rich-red: #8A4133;
+    --Warm-red: #952323;
+
+
 ## Deployment
 
 ### Deployment Process
@@ -175,7 +191,7 @@ The deployment process used for this project is via Github and Github pages, Git
 
 ### Git, Github and Github Pages
 
-Git, Github and Github Pages are used in thie project for all hosting, version control and storage of the project.
+Git, Github and Github Pages are used in this project for all hosting, version control and storage of the project.
 
 The project is deployed via Github Pages, the process is detailed below.
 
@@ -188,14 +204,14 @@ The project is deployed via Github Pages, the process is detailed below.
 ## Reflection on Development Process
 
 ### Successes
-With various trial and error, the creation of a warm, welcoming website was achieved. Although basic in functionality getting the scrollable background hero image was a good achievement and a great feature of the webpage. Using the bootstrap cards was another great addition and success for acheiving the desired feel for the webpage.
+With various trial and error, the creation of a warm, welcoming website was achieved. Although basic in functionality getting the scrollable background hero image was a good achievement and a great feature of the webpage. Using the bootstrap cards was another great addition and success for achieving the desired feel for the webpage.
 
 ### Challenges
 
 From learning CSS and transitioning to BootStrap, some elements were made easy but then others were made more difficult due to having to learn new documentation, classes and methods of work.
 
 ### Final Thoughts
-Overall the project was a good success, all must and should have features and user stories were completed to a MVP state, there is always room for improvement and optimisation. Such could have user stories and features would ned to be added during the next iteraton of the project.
+Overall the project was a good success, all must and should have features and user stories were completed to a MVP state, there is always room for improvement and optimisation. Such could have user stories and features would ned to be added during the next iteration of the project.
 
 ## Code Attribution
 
