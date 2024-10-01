@@ -159,13 +159,14 @@ There we some minor issues, primarily forgetting alt text attributes on some ima
 
 #### Initial HTML Validation
 
-<img src="" alt="Results from HTML validation"/>
+<img src="assets/images/Html Final Validation.png" alt="Results from HTML validation"/>
 
 #### CSS Validation
 
-<img src="" alt="Results from CSS validation"/>
+<img src="assets/images/Css Final Validation.png" alt="Results from CSS validation"/>
 
-<img src="" alt="CSS warnings"/>
+#### CSS Warnings
+<img src="assets/images/Css-warnings.png" alt="CSS warnings"/>
 
 ## Deployment
 
