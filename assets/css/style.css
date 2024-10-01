@@ -228,6 +228,15 @@ body {
 
 }
 
+/* -------------- Gallery/Carousel --------------------*/
+
+.carousel-item h5 {
+    font-size: 3rem;
+}
+
+.carousel-item p {
+    font-size: 1.5rem;
+}
 
 /* ------------ Links/Resources Section  ------------ */
 
