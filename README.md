@@ -89,16 +89,16 @@ Chosen Colour Scheme, to provide a warm, gentle and cosy tone
 
 #### Fonts
 Chosen Fonts to be used throughout the project
-<br>
-[Lobster](https://fonts.google.com/specimen/Lobster)
-<br>
-[Roboto](https://fonts.google.com/specimen/Roboto)
+[Lobster](https://fonts.google.com/specimen/Lobster), [Roboto](https://fonts.google.com/specimen/Roboto)
+<img src="./assets/images/lobster-text.png" alt="Image of Lobster Font"/>
+
+<img src="./assets/images/roboto-text.png" alt="Image of Roboto Font"/>
 
 #### Colour Contrast Considerations
 
 [WCAG Color Contrast Checker](https://accessibleweb.com/color-contrast-checker/)
 
-<img src="./assets/images/Colour-Contrast-Check.png" alt="Colour Contrast being checked" />
+<img src="./assets/images/Colour-Contrast-Check.png" alt="Colour Contrast being checked"/>
 
 
 ## Features Implementation
