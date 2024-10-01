@@ -113,8 +113,14 @@ Chosen Fonts to be used throughout the project
 ### Advanced Features (Should-Haves)
 - **Feature 1:** Ensure there is a well formatted form on the website to enabled users the ability to enter their details, such as name and email address. Including this feature enhanced user engagement and usability, it would also benefit the site owner as they not only get subscribers to their newsletter but also can use these metrics to gauge interest.
 
+<img src="./assets/images/Newsletter-signup.png" alt="Image of the newsletter sign up popup" />
+
 ### Optional Features (Could-Haves)
 - **Feature 1:** Enhancing user interaction, this could be done via additional media types e.g. videos. Or perhaps the use of Javascript to create more interactions on the website in general.
+
+A Gallery section was added to give the user more content to look through. Also with the focus on interactions some subtle animations have been added to cards and buttons this does not complete this feature but is a good starting point.
+
+<img src="./assets/images/Gallery-section.png" alt="Image of the gallery section" />
 
 
 ### Content and Image References
@@ -154,6 +160,8 @@ There we some minor issues, primarily forgetting alt text attributes on some ima
 #### CSS Validation
 
 <img src="" alt="Results from CSS validation"/>
+
+<img src="" alt="CSS warnings"/>
 
 ## Deployment
 
