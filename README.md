@@ -102,16 +102,20 @@ Chosen Fonts to be used throughout the project
 
 <img src="./assets/images/Hero-section.png" alt="Image of the hero section" />
 
+<br>
+
 - **Feature 2:** Information cards, containing relevant and concise information.
 
 <img src="./assets/images//info-cards.png" alt="Image of information cards section" />
+
+<br>
 
 - **Feature 3:** Consistent navigation on the site, allowing users to jump to different sections of the website.
 
 <img src="./assets/images/navbar.png" alt="Image of the navigation bar" />
 
 ### Advanced Features (Should-Haves)
-- **Feature 1:** Ensure there is a well formatted form on the website to enabled users the ability to enter their details, such as name and email address. Including this feature enhanced user engagement and usability, it would also benefit the site owner as they not only get subscribers to their newsletter but also can use these metrics to gauge interest.
+- **Feature 1:** Ensure there is a well formatted form on the website to enable users the ability to enter their details, such as name and email address. Including this feature will enhanced user engagement and usability, it would also benefit the site owner as they not only get subscribers to their newsletter but also can use these metrics to gauge interest.
 
 <img src="./assets/images/Newsletter-signup.png" alt="Image of the newsletter sign up popup" />
 
@@ -194,7 +198,8 @@ Overall the project was a good success, all must and should have features and us
 
 ## Code Attribution
 
-Code Institute - Snippets and Inspirations from Love Running, Whiskey Drop and Love Rosie Projects
+Code Institute - Snippets and Inspirations from Love Running, Whiskey Drop and Love Rosie Projects.
+<br>
 [Josh Comeau - CSS Transitions](https://www.joshwcomeau.com/animation/css-transitions/) - Code snippets taken to create the bounce class and animation in style.css
 
 ## Future Improvements
