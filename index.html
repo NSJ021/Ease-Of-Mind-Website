@@ -21,10 +21,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class="container-fluid p-0">
+<body class="">
     <header class="row">
         <!-- Nav -->
-        <nav class="navbar navbar-expand-sm fixed-top px-2" style="background-color: #8A4133;">
+        <nav class="navbar navbar-expand-sm fixed-top px-2" style="background-color: var(--rich-red);">
             <a href="#hero" class="navbar-brand">Ease Of Mind</a>
 
             <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse"
@@ -46,7 +46,7 @@
     </header>
 
     <!-- Hero section -->
-    <div class="container-fluid hero-container g-0 " id="hero">
+    <div class="container-fluid hero-container g-0" id="hero">
         <div class="row">
             <div class="col-12">
                 <section class="jumbotron text-center ">
@@ -426,18 +426,17 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="newsletterModalTitle">Ease Of Mind</h4>
-                    <h5 class="modal-title" id="newsletterModalTitle2">Newsletter</h5>
+                    <h3 class="modal-title" id="newsletterModalTitle2">Newsletter Sign Up</h3>
                 </div>
                 <div class="modal-body">
                     <form action="https://formdump.codeinstitute.net/" method="post">
                         <div class="mb-3">
                             <label for="nameSignUp" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="nameSignUp" aria-describedby="nameSignUp">
+                            <input type="text" class="form-control" id="nameSignUp" aria-describedby="nameSignUp" placeholder="Enter Your Name" required>
                         </div>
                         <div class="mb-3">
                             <label for="emailSignUp" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="emailSignUp" aria-describedby="emailSignUp">
+                            <input type="email" class="form-control" id="emailSignUp" aria-describedby="emailSignUp" placeholder="Email Address" required>
                             <div id="emailSignUpSafety" class="form-text">We'll never share your email with anyone else.
                             </div>
                         </div>

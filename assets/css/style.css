@@ -209,7 +209,6 @@ body {
 
 .card .btn {
     background-color: var(--medium-red);
-    /* border-radius: 15px; */
     min-width: 100px;
     font-weight: bold;
     margin-top: 10px;
@@ -293,6 +292,10 @@ body {
 
 /* ------------ Newsletter SignUp Modal ------------ */
 
-.modal-title .h4 .h5{
+.modal-header{
     justify-content: center;
+}
+
+#emailSignUpSafety {
+    font-family: 'Roboto', sans-serif;
 }
