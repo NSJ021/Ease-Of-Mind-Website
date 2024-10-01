@@ -153,6 +153,8 @@ One minor bug but now fixed was how the hero section background image was shrink
 
 Another minor bug was that the Navigation bar was not expanding into the burger icon at the correct screen size. Initial set with the bootstrap class of navbar-expand-sm, this was changed to md instead thus creating a more responsive navbar.
 
+Margins and Padding for various containers were somewhat problematic and caused some issues with unwanted whitespace at the edge of screen. This was fixed by using bootstraps m-0, p-0 and respective classes to remove any unwanted additional white-spaces caused by unintended bootstrap container margins and padding.
+
 ### Validation
 
 Both index.html and style.css have been ran through the appropriate validators:
