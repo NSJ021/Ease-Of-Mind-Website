@@ -155,6 +155,8 @@ Another minor bug was that the Navigation bar was not expanding into the burger 
 
 Margins and Padding for various containers were somewhat problematic and caused some issues with unwanted whitespace at the edge of screen. This was fixed by using bootstraps m-0, p-0 and respective classes to remove any unwanted additional white-spaces caused by unintended bootstrap container margins and padding.
 
+After running the completed site through [Google PageSpeed Insights](https://pagespeed.web.dev/analysis/https-nsj021-github-io-Ease-Of-Mind-Website/g2osk3lu4h?form_factor=mobile). It highlighted various issues relating to performance, accessibility, best practices and SEO. All accessibility, best practices and SEO issues have been resolved. Multiple performance issues still persist and are an ongoing effort to get resolved.
+
 ### Validation
 
 Both index.html and style.css have been ran through the appropriate validators:
