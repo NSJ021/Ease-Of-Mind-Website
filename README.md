@@ -3,7 +3,6 @@
 <img src="assets/images/final-product.png" alt="Image of the final webpage">
 <br>
 
-
 ## Overview
 
 ### Purpose
@@ -167,7 +166,7 @@ Both index.html and style.css have been ran through the appropriate validators:
 
 There we some minor issues, primarily forgetting alt text attributes on some images and some miss placed forward slash /. All have been resolved.
 
-#### Initial HTML Validation
+#### HTML Validation
 
 <img src="assets/images/Html Final Validation.png" alt="Results from HTML validation"/>
 
@@ -225,4 +224,4 @@ Code Institute - Snippets and Inspirations from Love Running, Whiskey Drop and L
 
 ## Future Improvements
 
-Future improvements would to increase the interactions for the user, perhaps more videos /  other media content. Quizzes Etc. However I did decide to add a gallery section which only enhanced the websites content further and provided some more visual content.
+Future improvements would be to increase the interactiveness for the user, perhaps more videos /  other media content. Quizzes Etc. However I did decide to add a gallery section which only enhances the websites content further and provided some more visual content.
