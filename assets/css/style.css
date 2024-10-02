@@ -151,6 +151,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
 
     display: flex;
     align-items: center;
@@ -161,6 +162,7 @@ body {
 }
 
 /* ------------- Jumbotron ------------- */
+
 
 .jumbotron {
     background-color: transparent;
@@ -175,6 +177,10 @@ body {
 .jumbotron .lead {
     margin: 25px 0;
     color: var(--off-white);
+    background-color: var(--medium-red);
+    border-radius: 15px;
+    width:fit-content;
+    font-size: 1.2em;
 }
 
 /* ------------- Information Section ---------- */
