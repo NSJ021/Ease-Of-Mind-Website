@@ -103,6 +103,9 @@ body {
     margin-top: 0;
 }
 
+#information, #activities, #gallery {
+    padding: 75px 0px;
+}
 /* ------------- NavBar ------------- */
 
 .navbar {
